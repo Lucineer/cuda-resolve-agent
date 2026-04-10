@@ -2,11 +2,13 @@
 name = "cuda-resolve-agent"
 version = "0.1.0"
 edition = "2021"
-description = "Deliberative A2A agent — Consider/Resolve/Forfeit with Bayesian confidence, built on cuda-equipment"
+description = "Deliberative agent with proposal lifecycle and orchestration"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/Lucineer/cuda-resolve-agent"
-keywords = ["ai", "agent", "deliberation", "a2a", "bayesian", "confidence"]
+readme = "README.md"
+keywords = ["ai", "fleet", "agent", "rust"]
+categories = ["science"]
 
 [dependencies]
-cuda-equipment = { path = "../cuda-equipment" }
-serde_json = "1.0"
+cuda-equipment = "0.1"
+serde = { version = "1", features = ["derive"] }
