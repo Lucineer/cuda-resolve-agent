@@ -2,7 +2,7 @@
 name = "cuda-resolve-agent"
 version = "0.1.0"
 edition = "2021"
-description = "Deliberative agent with proposal lifecycle and orchestration"
+description = "Deliberative agent with orchestration"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/Lucineer/cuda-resolve-agent"
 readme = "README.md"
